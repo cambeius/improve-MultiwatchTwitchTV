@@ -19,7 +19,7 @@ function moveChat(){
 
 var checker = setInterval(() => {
     if(document.readyState === "complete"){
-        console.log("page is ready to be fucked");
+        console.log("page is ready to be changed");
         clearInterval(checker);
         moveChat();
         
